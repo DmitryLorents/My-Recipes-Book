@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A3D3B2A2A9D1FB500B72054 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D3B292A9D1FB500B72054 /* HomeView.swift */; };
 		0A3D3B302A9E6BCE00B72054 /* TrendingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D3B2F2A9E6BCE00B72054 /* TrendingCollectionViewCell.swift */; };
 		0A3D3B322A9E6BF900B72054 /* PopularCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D3B312A9E6BF900B72054 /* PopularCategoryCollectionViewCell.swift */; };
 		0A3D3B342A9E6C0B00B72054 /* PopularItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D3B332A9E6C0B00B72054 /* PopularItemCollectionViewCell.swift */; };
@@ -35,6 +34,8 @@
 		0AA95BA32AA664E0009326D2 /* TrendRecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA95BA12AA664E0009326D2 /* TrendRecipeCell.swift */; };
 		0AA95BA42AA664E0009326D2 /* TrendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA95BA22AA664E0009326D2 /* TrendingView.swift */; };
 		0AA95BA62AA66549009326D2 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA95BA52AA66549009326D2 /* UIImageViewExtension.swift */; };
+		0AB703B12ADC517300FC4F44 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0AB703B02ADC517300FC4F44 /* README.md */; };
+		0AB703B32ADC51AE00FC4F44 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB703B22ADC51AE00FC4F44 /* HomeView.swift */; };
 		F43422202A9C29930025C556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F434221F2A9C29930025C556 /* AppDelegate.swift */; };
 		F43422222A9C29930025C556 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43422212A9C29930025C556 /* SceneDelegate.swift */; };
 		F43422292A9C29950025C556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43422282A9C29950025C556 /* Assets.xcassets */; };
@@ -67,7 +68,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A3D3B292A9D1FB500B72054 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = SOURCE_ROOT; };
 		0A3D3B2F2A9E6BCE00B72054 /* TrendingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCollectionViewCell.swift; sourceTree = "<group>"; };
 		0A3D3B312A9E6BF900B72054 /* PopularCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		0A3D3B332A9E6C0B00B72054 /* PopularItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularItemCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -95,6 +95,8 @@
 		0AA95BA12AA664E0009326D2 /* TrendRecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendRecipeCell.swift; sourceTree = "<group>"; };
 		0AA95BA22AA664E0009326D2 /* TrendingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingView.swift; sourceTree = "<group>"; };
 		0AA95BA52AA66549009326D2 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		0AB703B02ADC517300FC4F44 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0AB703B22ADC51AE00FC4F44 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F434221F2A9C29930025C556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F43422212A9C29930025C556 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F43422282A9C29950025C556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -302,6 +304,7 @@
 		F43422132A9C29930025C556 = {
 			isa = PBXGroup;
 			children = (
+				0AB703B02ADC517300FC4F44 /* README.md */,
 				F434221E2A9C29930025C556 /* My-Recipes-Book */,
 				F43422672A9C80B70025C556 /* My-Recipes-Book.app */,
 			);
@@ -393,7 +396,7 @@
 		F434223E2A9C2A410025C556 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0A3D3B292A9D1FB500B72054 /* HomeView.swift */,
+				0AB703B22ADC51AE00FC4F44 /* HomeView.swift */,
 				0A3D3B2D2A9E6B5C00B72054 /* Cells */,
 			);
 			path = View;
@@ -633,6 +636,7 @@
 			files = (
 				0A3D3B492A9FCA0F00B72054 /* Poppins-Regular.ttf in Resources */,
 				0A3D3B4A2A9FCA1100B72054 /* Poppins-SemiBold.ttf in Resources */,
+				0AB703B12ADC517300FC4F44 /* README.md in Resources */,
 				F43422292A9C29950025C556 /* Assets.xcassets in Resources */,
 				F434225B2A9C2C700025C556 /* Poppins-Bold.ttf in Resources */,
 			);
@@ -678,7 +682,6 @@
 				F434224E2A9C2B100025C556 /* SavedRecipiesViewController.swift in Sources */,
 				F43422562A9C2B700025C556 /* UIColor Extension.swift in Sources */,
 				F4D7B07E2AAD890C00028005 /* NewRecipeViewController.swift in Sources */,
-				0A3D3B2A2A9D1FB500B72054 /* HomeView.swift in Sources */,
 				0A3D3B442A9F672400B72054 /* HeaderCollectionReusableView.swift in Sources */,
 				0A3D3B322A9E6BF900B72054 /* PopularCategoryCollectionViewCell.swift in Sources */,
 				F434223B2A9C2A150025C556 /* OnboardingView.swift in Sources */,
@@ -687,6 +690,7 @@
 				0AA95BA42AA664E0009326D2 /* TrendingView.swift in Sources */,
 				0AA95B9D2AA664AB009326D2 /* RecipeEndPoint.swift in Sources */,
 				0AA95B902AA66403009326D2 /* RecipeDataModelForCell.swift in Sources */,
+				0AB703B32ADC51AE00FC4F44 /* HomeView.swift in Sources */,
 				0AA95B8D2AA649BC009326D2 /* CategoryType.swift in Sources */,
 				F4D7B0842AAD89A800028005 /* ButtonCell.swift in Sources */,
 				F4D7B08A2AAD8A2300028005 /* NewIngredientCellDelegate.swift in Sources */,

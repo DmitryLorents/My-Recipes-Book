@@ -8,7 +8,9 @@
 import Foundation
 
 struct RequestBuilder {
+    
     func buildRequest(with endPoint: EndPointType?) -> URLRequest? {
+        
         guard let endPoint = endPoint else { return nil }
         let url = URL(string: endPoint.path, relativeTo: endPoint.baseURL)
         guard let url = url else { return nil }
@@ -19,8 +21,10 @@ struct RequestBuilder {
         request.url = urlComponents?.url
         return request
     }
+    
     //the function is responsible for setting parameters in the URL request (RecipeAPI requestParameters)
     private func configureURLComponents(urlRequest: URLRequest, parameters: Parameters) -> URLComponents? {
+       
         guard let url = urlRequest.url else { return nil }
         guard var urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: false), !parameters.isEmpty else { return nil }
         urlComponents.queryItems = [URLQueryItem]()
@@ -31,4 +35,5 @@ struct RequestBuilder {
         }
         return urlComponents
     }
+    
 }
